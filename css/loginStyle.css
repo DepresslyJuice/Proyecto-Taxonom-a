@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #305D58;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content:center; /* Distribuye los elementos a los extremos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    font-size: 26px;
+
+}
+body {
+    margin: 0;
+    background-color: #CADAC1;
+}
+nav{
+    background-color: #305D58;
+    display: flex;
+    padding: 25px;
+    margin: 25%;
+    justify-content: center;
+    align-items: center;
+}
