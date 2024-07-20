@@ -45,6 +45,10 @@ header a {
 }
 
 
+.main{
+    padding: 30px 80px;
+}
+/*zukkaaaaaaaaaaa blyaaaaaaaaaaad */
 
 #userVector{
     width: 2.5875rem;
@@ -53,7 +57,12 @@ header a {
     fill: #FFF;
 }
 
-
+#saludoLine {
+    width: 98.41731rem;
+    height: 0.0625rem;
+    background: #000;
+    align-content: center;
+}
 
 nav {
     background-color: #EEBA93;
@@ -122,8 +131,65 @@ article {
     padding: 10px;
 }
 
+#Saludo {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    font-size: larger;
+    font-size: 26px;
+    text-align: center;
+}
 
+#Acciones {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+    justify-content: space-evenly;
+    gap: 10px; /* Añade espacio entre las cartas */
+}
 
+#Acciones h2 {
+    width: 100%;
+    text-align: center; /* Centra el texto del título */
+    margin-bottom: 20px;
+}
 
+#titulo {
+    margin: 30px 10px 50px 10px;
+    font-size: 22px;
+}
 
+.carta {
+    background-color: #EFEBD2; /* Añadido color de fondo */
+    border: 1px solid #ddd;
+    width: 15.71694rem;
+    height: 20.03456rem;
+    padding: 26px;
+    font-size: 18px;
+    text-align:center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.5s ease;
+    flex: 1 1 calc(33.333% - 20px); /* Ajusta el ancho de las cartas */
+    box-sizing: border-box;
+}
 
+.carta img{
+    margin: 20px 0px 40px 0px;
+}
+.carta:hover {
+    background-color: #EEBA93;
+}
+
+/* Media queries para ajustar el diseño en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .carta {
+        flex: 1 1 calc(50% - 20px); /* 2 cartas por fila en pantallas medianas */
+    }
+}
+
+@media (max-width: 480px) {
+    .carta {
+        flex: 1 1 100%; /* 1 carta por fila en pantallas pequeñas */
+    }
+}
