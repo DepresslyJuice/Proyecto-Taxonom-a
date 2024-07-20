@@ -49,7 +49,12 @@ header a {
     justify-content: center;
 }
 main{
+    margin-top: 2.5%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
 }
 
 .main {
@@ -132,4 +137,59 @@ nav .menu-toggle div {
         display: flex;
         /* Muestra el botón de menú hamburguesa */
     }
+}
+
+.form-section {
+    background-color: #ede6db5c;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+.form-section h2 {
+    margin-bottom: 20px;
+    color: #4d5645;
+}
+.form-group {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.organismo-options button {
+    background-color: #d3d3d3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="date"],
+input[type="number"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #264f39;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
