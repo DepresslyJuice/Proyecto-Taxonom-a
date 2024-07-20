@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, a, p, label {
 
 body {
     margin: 0;
-    background: linear-gradient(45deg, #93b49b, #bca18e, #4c877d, #bcb2a3);
+    background: linear-gradient(50deg, #93b49b, #bca18e, #4c877d, #bcb2a3);
     background-size: 400% 400%;
     animation: gradientBG 16s ease infinite;
     display: flex;
@@ -34,7 +34,7 @@ header {
     color: black;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     font-size: 26px;
