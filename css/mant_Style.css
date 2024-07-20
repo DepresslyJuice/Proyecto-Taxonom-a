@@ -4,15 +4,7 @@
 }
 
 /* Aplica 'Libre Caslon Text' específicamente a los encabezados */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-p,
-label {
+h1,h2,h3,h4,h5,h6,a,p,label {
     font-family: 'Libre Caslon Text', serif;
 }
 
@@ -55,6 +47,9 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+main{
+    display: flex;
 }
 
 .main {
