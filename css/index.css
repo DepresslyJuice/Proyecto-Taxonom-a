@@ -1,12 +1,8 @@
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-
-/* Aplica 'Libre Caslon Text' específicamente a los encabezados */
-h1, h2, h3, h4, h5, h6, a, p, label{
     font-family: 'Libre Caslon Text', serif;
 }
+
 
 body {
     margin: 0;
@@ -44,6 +40,35 @@ header a {
     justify-content: center;
 }
 
+.user-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.user-menu p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.user-menu a {
+    display: block;
+    color: #305D58;
+    padding: 10px;
+    text-decoration: none;
+    border-top: 1px solid #ccc;
+}
+
+.user-menu a:hover {
+    background-color: #f1f1f1;
+}
 
 .main{
     padding: 30px 80px;

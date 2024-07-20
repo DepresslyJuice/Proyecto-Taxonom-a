@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, a, p {
 
 body {
     margin: 0;
-    background-color: #CADAC1;
+    background-color: #000000;
 }
 
 header {
@@ -123,15 +123,21 @@ article {
 
 @media (max-width: 768px) {
     nav .menu {
+        display: none;
+        /* Oculta el menú por defecto */
+        flex-direction: column;
+        /* Cambia la dirección a columna */
         width: 100%;
     }
 
-    .feature {
-        flex-direction: column;
-        height: auto;
+    nav .menu a {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
     }
 
-    .feature a {
-        margin: 10px 0;
+    nav .menu-toggle {
+        display: flex;
+        /* Muestra el botón de menú hamburguesa */
     }
 }
