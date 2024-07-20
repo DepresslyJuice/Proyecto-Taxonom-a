@@ -40,8 +40,8 @@
                 <div class="form-group">
                     <label for="tipo-organismo">Tipo de organismo</label>
                     <div class="organismo-options">
-                        <button type="button">Plántula</button>
-                        <button type="button">Semilla</button>
+                        <button type="button"><p>Plántula</p></button>
+                        <button type="button"><p>Semilla</p></button>
                     </div>
                 </div>
                 <div class="form-group">
@@ -68,6 +68,12 @@
             </form>
         </section>
     </main>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('nav .menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
 </body>
 
 </html>
